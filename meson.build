@@ -11,6 +11,7 @@ project('libcamera', 'c', 'cpp',
         'werror=true',
         'warning_level=2',
         'cpp_std=c++17',
+        'buildtype=debugoptimized',
     ],
     license : 'LGPL 2.1+')
 
